@@ -41,6 +41,7 @@ const App = () => {
         },
         body: JSON.stringify({
           message,
+          role: 'user',
           conversation_id: conversationId, // Send the conversation_id with the message
         }),
       });
